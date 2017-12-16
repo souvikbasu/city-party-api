@@ -46,7 +46,7 @@ function handleError(res, reason, message, code) {
  */
 
 app.get("/api/party/:city", function(req, res) {
-    var parcitytyName = req.params.city;
+    var city = req.params.city;
     var limit = Number(req.query.limit || 1);
 
     if(limit === 1) {
