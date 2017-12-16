@@ -1,0 +1,27 @@
+{
+  "name": "city-party-api",
+  "version": "1.0.0",
+  "description": "City Party details API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souvikbasu/city-party-api.git"
+  },
+  "author": "Souvik Basu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/souvikbasu/city-party-api/issues"
+  },
+  "homepage": "https://github.com/souvikbasu/city-party-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-basic-auth": "^1.1.3",
+    "mongodb": "^2.2.33"
+  }
+}
